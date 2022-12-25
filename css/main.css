@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100vh;
+    overflow: auto;
+}
+
+.background {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-image: url("/images/notes-bg.jpg");
+    background-size: 100% 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .area {
+        width: 30%;!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .area {
+        width: 300px;!important;
+        margin: 10px;
+        
+    }
+}
+
