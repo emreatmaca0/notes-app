@@ -1,0 +1,62 @@
+html,
+body {
+    height: 100vh;
+    overflow: auto;
+}
+
+.background {
+    height: min-content;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-image: url("/images/notes-bg.jpg");
+    background-size: 100% 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .area {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .area {
+        width: 300px;
+        
+    }
+    
+}
+
+.area{
+    overflow-wrap: break-word;
+    margin-top: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+
+
+  /*-------------------------------------------------*/
+
+ 
+ 
+  
